@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(240,245,255); ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar{
+    display: flex;
+
+}
+
+.searchbar input {
+    border: none;
+    background-color: rgb(240,245,255);
+    font-size: 15px;
+    height: 40px;
+    border-radius: 2px;
+    border-start-end-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.searchbar i{
+    background-color: rgb(240,245,255); ;
+    color: grey;
+}
+.searchbar .material-symbols-outlined{
+    justify-content: flex-end;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 8px 8px 8px 12px;
+    font-size: 35;
+    color: grey;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.rightside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login select{
+    border: none;
+    border-radius: 2px;
+    height: 26px;
+}
+ .login select:hover{
+    background-color: blue;
+ }
+
+.login i:hover{
+    background-color: blue;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 48px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.bestseller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    margin-right: 62px;
+    margin-left: 44px
+}
+
+.bestseller{
+    margin-left: 42px;
+}
+
+hr{
+    border: none;
+}
+
+.Top_products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-top: 8px;
+    height: 104px;
+    padding: 21px;
+    padding-left: 41px;
+    padding-right: 15px;
+}
+
+.Different_products{
+    flex: 1;
+    font-size: 12px;
+    color: rgb(17,17,18);
+    font-weight: 560;
+
+}
+.Different_products img{
+    height: 60px;
+}
+
+section{
+    margin: 15px;
+}
+
+.bor{
+    box-sizing: border-box;
+    border:none;
+}
+
